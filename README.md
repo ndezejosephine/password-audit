@@ -1,9 +1,16 @@
-# Password Audit Tool   
-Bulk password auditing from leaked files with automated reporting
+# Cyber Python Tools  
+Password Auditing | Network Scanning | Automation
 
-## Features
+## Tools
+
+### 1. Password Auditor (`cyber1.py`)
 - Reads passwords from `leaked_passwords.txt`
-- Checks: 8+ chars, number, uppercase, special chars
-- Outputs detailed per-password feedback
-- Generates `audit_report.txt` with summary
-- Error handling for missing files
+- Checks: 8+ chars, number, uppercase, lowercase, special chars
+- Generates `audit_report.txt`
+
+### 2. Port Scanner (`port_scanner.py`)
+Scans ports: 22 (SSH), 80 (HTTP), 443 (HTTPS)
+Saves results to `scan_report.txt`
+**Safe**: Use on `scanme.nmap.org`
+
+

@@ -1,0 +1,8 @@
+Advanced Scan Report
+Target: 10.34.131.233
+Time: 2025-11-09 21:41:56.327636
+Open Ports: 3
+
+Port 88: 
+Port 22: SSH-2.0-OpenSSH_9.9
+Port 445: No banner
